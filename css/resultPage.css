@@ -1,0 +1,49 @@
+[SK강은미] [오전 10:32] @charset "UTF-8";
+
+#box {
+   margin-top: 20px;   
+}
+
+#resultVideo {
+   margin: auto;
+   display: block;
+}
+
+#resultDiv, #symptomDiv, #videoDiv { /* --- */
+   max-width: 100%;
+   margin: 20px auto;
+}
+
+#resultTxt {
+   text-align: center;
+}
+
+#symptomTxt {
+   text-align: center;
+   color: red;
+   margin-bottom: 0px;
+}
+
+#videoTxt {
+   text-align: center;
+   color: black;
+   margin-bottom: 0px;
+}
+
+#piechart, #piechart svg, #barchart, #barchart svg {
+   max-width: 100%
+}
+
+.pop_area{
+    width:100%;
+    height:auto;
+    z-index:2200;
+    background:rgba(0,0,0,.8)
+}
+
+.pop_video .pop_wrap{
+    top:100px;
+    left:0;
+    width: 100%;
+    height: auto;
+}
